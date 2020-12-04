@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a1fb6c22c14d436d81941e68b9b52354" Name="Diagram1">
+        <EntityTypeShape EntityType="dbNewBusModel.tblAdmin" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbNewBusModel.tblBooking" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbNewBusModel.tblBu" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbNewBusModel.tblCancellation" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbNewBusModel.tblCustomer" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbNewBusModel.tblPayment" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbNewBusModel.tblReturnTicket" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbNewBusModel.tblUnAuthCustomer" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
+        <AssociationConnector Association="dbNewBusModel.FK__tblBookin__BusNo__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="dbNewBusModel.FK__tblBookin__CustU__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="dbNewBusModel.FK__tblBookin__Email__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="dbNewBusModel.FK__tblBookin__Payme__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="dbNewBusModel.FK__tblCancel__Booki__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="dbNewBusModel.FK__tblReturn__Booki__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="dbNewBusModel.FK__tblCancel__Payme__34C8D9D1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
